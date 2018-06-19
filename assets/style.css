@@ -91,7 +91,10 @@ header img {
   border-bottom: 1px solid #eee;
 }
 .hit-name {
-  margin: 0;
+  color: #868686;
+  margin: 0px 0 0px 0;
+  font-size: 16px;
+  font-weight: 500;
 }
 .hit-image {
   display: inline-block;
@@ -118,12 +121,21 @@ header img {
 
 .hit-content .hit-price {
   float: right;
-  margin-left: 20px;
+  margin-left: 0px;
   color: #ffffff;
   background: #383838;
   padding: 4px;
   border-radius: 3px;
 }
+.hit-pricelabel {
+  float:right;
+  margin: 0;
+  color: #868686;
+  padding: 4px;
+  border-radius: 3px;
+    font-size: 14px;
+}
+
 .hit-content .hit-price, .hit-content .hit-name {
   font-weight: normal;
   margin-top: 0;
@@ -152,9 +164,11 @@ header img {
   }
 
 .hit-content .hit-description {
-  color: #868686;
-  margin: 1px 0 10px 0;
-  font-size: 15px;
+  color: #383838;
+  margin: 5px 0 10px 0;
+  font-size: 24px;
+  font-weight: 500;
+
 }
 
 /* PAGINATION */
